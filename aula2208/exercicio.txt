@@ -1,0 +1,8 @@
+1 - Construa uma estrutura em PHP que retorne uma mensagem 
+ao verificar se um campo esta vazio .Utilizando o ECHO.
+2- Ao clicar no botão exiba um alert .Informando qeu clicouno botão.
+3 - Faça uma estrutura em php que verifique o valor de duas notas e exiba o calculo da média 
+em um terceiro campoe exiba na tala um alert com a mensagem reprovado ou aprovado.
+4 -Faça uma estrutura em php que exiba em um campo um nome próprio iniciado com a letra 
+colocada em outro campo sendo que só usaremos as letras A, B, C, D, E, F caso o usuáeio inofme
+outra qualquer outra letra devemso informar ERRO.

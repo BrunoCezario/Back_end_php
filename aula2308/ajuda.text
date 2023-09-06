@@ -1,0 +1,19 @@
+ if(isset($_POST['submit']))
+    {
+        
+        //echo"<script>alert('Você clicou no botão')</script>";
+        print"<script>alert('Você clicou no botão')</script>";
+      
+        //echo __LINE__;
+    }
+
+    for (inicializacao; condicao_de_parada; incremento/decremento) {
+ bloco_de_instrucoes;
+}
+
+
+if (condicao) {
+ bloco_de_instrucoes1;
+} else {
+ bloco_de_instrucoes2;
+}

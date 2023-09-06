@@ -1,0 +1,20 @@
+Esse padrão não possui um objetivo único e tem como objetivo:
+
+Reutilização de código (tempo economizado);
+Escalabilidade (código adicionado mais facilmente);
+Manutenibilidade (manutenção mais fácil);
+Desenvolvimento mais rápido.
+A POO possui alguns conceitos fundamentais para seu desenvolvimento:
+
+Abstração: são tipos abstratos de dados;
+Objetos: um objeto é uma entidade do mundo real, concreta ou abstrata, que seja aplicável ao sistema;
+Classes: uma classe é a representação de vários objetos que possuem as mesmas características e comportamentos;
+Atributos / Propriedades: são as características de um determinado objeto.
+Classes e Objetos
+Algo que confunde bastante novos estudantes de OO é a diferença entre Classes e Objetos.
+
+As classes definem as características e o comportamento dos seus objetos. Cada característica é representada por um atributo e cada comportamento é definido por um método.
+
+Então uma classe não é um objeto e sim uma abstração de sua estrutura, no qual podemos definir quantos objetos desejamos ter.
+
+seta(->). Seu nome é Operador de Acesso a Objetos e é através dessa seta que indicamos que estamos acessando um atributo ou método de tal objeto.

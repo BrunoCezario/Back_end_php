@@ -1,0 +1,13 @@
+Todas as variáveis da linguagem PHP são identificadas por um símbolo
+de dólar ($), que precede um nome identificador.
+
+Conter somente letras maiúsculas ou minúsculas (a – z, A - Z), números
+(1 – 9) e sublinhado (_).
+ Iniciar com uma letra ou sublinhado.
+10 Linguagem PHP – Introdução
+ Não conter espaços, por isso, quando um nome tiver mais de uma
+palavra, elas devem ser separadas por sublinhado (_).
+ O nome das variáveis é case-sensitive, o que significa que uma variável
+nomeada como $var é diferente de outra com o nome $VAR.
+
+https://github.com/Gutoneitzke/sistema-cadastro-php/blob/main/config.php
