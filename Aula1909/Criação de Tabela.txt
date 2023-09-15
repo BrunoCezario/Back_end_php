@@ -1,0 +1,6 @@
+CREATE TABLE Produto(
+Codigo_Produto INTEGER NOT NULL AUTO_INCREMENT, 
+Descricao_Produto VARCHAR(30),
+Preco_Produto FLOAT,
+PRIMARY KEY (Codigo_Produto)
+)

@@ -1,0 +1,1 @@
+No contexto de banco de dados, um índice é uma estrutura (ou arquivo) auxiliar associado a uma tabela (ou coleção de dados). Sua função é acelerar o tempo de acesso às linhas de uma tabela, criando ponteiros para os dados armazenados em colunas específicas.
