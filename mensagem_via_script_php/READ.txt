@@ -1,0 +1,1 @@
+Neste exercício o usuário recebe uma mensagem criada via script pelo php.

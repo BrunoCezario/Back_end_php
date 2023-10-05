@@ -1,0 +1,1 @@
+Neste exercício o usuário insere um nos campos e o sisteme retorna a média.

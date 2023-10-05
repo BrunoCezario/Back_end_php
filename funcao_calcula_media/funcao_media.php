@@ -1,12 +1,10 @@
 <?php
 function media($val1, $val2)
 {
-    if (is_int($val1) && is_int($val2)) {
-
-        if (isset($val1) && isset($val2)) {
+       if (isset($val1) && isset($val2)) {
             $media = ($val1 + $val2) / 2;
             return $media;
-        }
+
     } else {
         return 'inválido';
     }
