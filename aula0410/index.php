@@ -15,7 +15,9 @@ if (isset( $_POST['acessar'])) {
     //refatorar
         $login = $_POST['login'];
         $senha = $_POST['senha'];
+
   
+
     
     if ($login=="") {
     $_SESSION['msg'] = "<p style='font: size 23px;px'> PREENCHA OS DADOS CORRETAMENTE.</p>" .$login;
@@ -32,6 +34,7 @@ if (isset( $_POST['acessar'])) {
                 $row = $result->fetch(PDO::FETCH_ASSOC);
                // echo"Usuário logado com sucesso.";
                $_SESSION['msg'] = "<p style='color:#00FF00 '>USUÁRIO LOGADO COM SUCESSO.</p>";
+
             }else {
                 $_SESSION['msg'] = "<p style='color:#ff0000'>Usuário não encontrado.</p>";
                 //echo"Usuário logado com sucesso.";
@@ -56,7 +59,7 @@ if (isset( $_POST['acessar'])) {
                     $result->bindParam(":login", $login, PDO::PARAM_STR);
                     $result->bindParam(":senha", $senha, PDO::PARAM_STR);
                     $result->execute();
-            
+                     
                 if ($result->rowCount() !=0) {
                     $row = $result->fetch(PDO::FETCH_ASSOC);
 
