@@ -1,8 +1,0 @@
- if(isset($_POST['submit']))
-    {
-        
-        //echo"<script>alert('Você clicou no botão')</script>";
-        print"<script>alert('Você clicou no botão')</script>";
-      
-        //echo __LINE__;
-    }
