@@ -54,7 +54,7 @@ if ($_POST['login']) {
         <?php 
         if (isset( $_POST['pesquisar'])) {
             //fazer a pesquisa quando não encontrar pois esta com este erro.
-            if(isset($row)) {
+            if(isset($row)){
                 echo "<h1> " . "ID: " .$row['id'] . " - "."Login: " .$row['login']."<h1> ". "<br/>";   
             }else{
                 foreach ($rows as $usuario) { 
