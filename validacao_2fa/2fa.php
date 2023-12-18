@@ -10,7 +10,8 @@ include_once("conexao.php");
 
 //     $resposta = "<script type='text/javascript'> document.write(resposta); </script>";
 //     return($resposta);
-// }
+// 
+}
 
 $randon = mt_rand(1,3);
 function perguntasAleatorias($randon){
